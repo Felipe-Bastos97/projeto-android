@@ -31,7 +31,7 @@
 
 body{
     
-    background-color: var(--cor0);
+    background-color: #20faa37c;
     font-family: var(--font-padrao);
     
     
@@ -87,7 +87,7 @@ nav>a{
     transition-duration: .5s;
 }
 nav>a:hover{
-    background-color: #20faa3bd;
+    background-color: #19ffa3bd;
     padding: 8px;
 }
 main{
@@ -153,11 +153,12 @@ main a:hover{
 }
 div.video{
     background-color: #20FAA4;
-    position: relative;
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 58%;
-
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+    
 
 }
 be
